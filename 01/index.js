@@ -1,4 +1,7 @@
 ReactDOM.render(
-    <ul><li>Thing 1</li><li>Thing 2</li></ul>,
-    document.getElementById("root")
-)
+  <li>
+    <ul>Item1</ul>
+    <ul>Item2</ul>
+  </li>,
+  document.getElementById("root")
+);
