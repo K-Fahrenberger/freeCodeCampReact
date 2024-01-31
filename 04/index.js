@@ -16,3 +16,16 @@ Create a navbar in JSX:
         "About", and "Contact"
     - Don't worry about styling yet - it'll just be plain-looking HTML for now
 */
+
+const navbar = (
+  <nav>
+    <h1>Putting back the Coke in Coke</h1>
+    <ul>
+      <li>Menu</li>
+      <li>About</li>
+      <li>Contact</li>
+    </ul>
+  </nav>
+);
+
+ReactDOM.render(navbar, document.getElementById("root"));
